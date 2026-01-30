@@ -12,7 +12,7 @@ public class HelloApplication extends Application {
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("cal-view.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
-        stage.setTitle("Hello Welcome to My java calculator app...!");
+        stage.setTitle("Hello My java calculator app is here...!");
         stage.setScene(scene);
         stage.show();
     }
